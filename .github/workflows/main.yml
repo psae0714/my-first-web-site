@@ -1,8 +1,8 @@
 name: Add comment
 on:
  issues:
- types:
-  - labeled
+  types:
+   - labeled
 jobs:
  add-comment:
   if: github.event.label.name == ‘help wanted'
